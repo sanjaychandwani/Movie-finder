@@ -63,7 +63,7 @@ function App() {
         </div>
         :
         <div className="empty">
-          <h2>Enter movie name</h2>
+          <h2>Enter movie nameeeee</h2>
         </div>
       }
 
