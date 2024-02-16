@@ -9,7 +9,8 @@ import MovieCard from "./MovieCard";
 function App() {
   const [input, setInput] = useState("");
   const [movie, setMovie] = useState([]);
-  const ApiUrl = "https//www.omdbapi.com?apikey=31f0e378";
+const ApiUrl = "https://www.omdbapi.com?apikey=31f0e378";
+
 
   const fetchMovies = (title) => {
     axios.get(`${ApiUrl}&s=${title}`)
